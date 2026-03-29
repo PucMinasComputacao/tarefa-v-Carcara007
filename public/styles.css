@@ -1,0 +1,167 @@
+.icones{
+    height: 30px;
+    width: 30px;
+    margin: 0 15px 0 15px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: sticky;
+    top: 0;
+    transition: 0.3s;
+}
+nav:hover{
+    background-color: white;
+}
+#formSearch{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#formSearch>button{
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    margin-left: 2px;
+}
+input{
+    width: 80%;
+    height: 30px;
+    border-radius: 30px;
+}
+#imgSearch{
+    width: 30px;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(backImg.png);
+    border-bottom: solid rgb(71 102 123) 10px;
+}
+
+body{
+    margin: 0;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+#backImg{
+    background-image: url(backImg.png);
+}
+#btnHead{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+main{
+    margin-top: 5vh;
+    color: rgb(71 102 123);
+}
+main>h1{
+    margin-left: 5vh;
+    font-size: 50px;
+    margin-bottom: 0;
+}
+main>h2{
+    margin: 0 0 30px 5vh;
+    font-size: 20px;
+}
+#items{
+    display: flex;
+    justify-content: space-around;
+}
+.cards{
+    height: 45vh;
+    width: fit-content;
+}
+.cards>img{
+    height: 35vh;
+}
+.cards>div{
+    margin-left: 10px;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+}
+.cards p{
+    margin-top: 0;
+}
+section{
+    margin: 30px 200px 0 200px;
+}
+#sex{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 0;
+}
+#escuro{
+    transition: filter 0.3s ease-in-out; 
+}
+#escuro:hover{
+    filter: brightness(50%);
+    
+}
+#itemElas{
+    position: absolute;
+    top: 3000px;
+    left: 680px;
+    color: rgb(248 244 196);
+    
+}
+
+article{
+    text-align: center;
+}
+article>h1{
+    font-size: 70px;
+    color: rgb(71 102 123);
+    margin-bottom: 10px;
+}
+#textArt{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto 10vh auto;
+    color: rgb(71 102 123);
+    
+}
+footer{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    color: rgb(248 244 196);
+}
+footer input{
+    border-radius: 0;
+    background-color: rgb(248 244 196);
+    width: 20%;
+    margin-left: 110vh;
+}
+footer form{
+    padding-left: 10vh;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: solid rgb(248 244 196) 1px;
+}
+#logoF{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    border-bottom: solid rgb(248 244 196) 1px;
+}
+#logoF>img{
+    height: 50px;
+}
+#rights>p{
+    margin: 0;
+    padding: 10px 0 10px 0;
+}
+#rights{
+    text-align: center;
+}
